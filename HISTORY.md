@@ -1,5 +1,8 @@
 # Wëst Dgermänik change history
 
+## 0.13.0 (19 May 2026)
+- Complete layout redesign to accomodate Wëst Dgermänik orthography v4, which changed post-alveolar consonants: c, sh, zh -> tc, sc, zg
+
 ## 0.12.0 (16 May 2026)
 
 - Changed position of A, Ä, U, G, and Z to reflect frequency changes from the new vowel grouping introduced in Wëst Dgermänik orthography v3
