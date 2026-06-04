@@ -1,7 +1,10 @@
 # Wëst Dgermänik change history
 
+## 0.13.1 (4 June 2026)
+- Added G with dot above (Ġġ) to long press on G to allow digraph disambiguation
+
 ## 0.13.0 (19 May 2026)
-- Complete layout redesign to accomodate Wëst Dgermänik orthography v4, which changed post-alveolar consonants: c, sh, zh -> tc, sc, zg
+- Layout fully redesigned to accomodate Wëst Dgermänik orthography v4, which changed post-alveolar consonants: c, sh, zh -> tc, sc, zg
 
 ## 0.12.0 (16 May 2026)
 
