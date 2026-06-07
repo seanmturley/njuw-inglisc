@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Wëst Dgermänik'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.13.1'
+store(&KEYBOARDVERSION) '0.13.2'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
 
@@ -23,6 +23,12 @@ store(alphaShiftOut)         'A'     ..      'Z'          'Ä'            'Ë'  
 
 c Define whitespace
 store(whitespace) ' ' U+00A0 U+000D U+000A U+0009 U+2002 U+2003 U+2004 U+2005 U+2006 U+2007 U+2008 U+2009 U+200A U+202F U+205F
+
+c Define open/close symbols explicitly to override behaviour defined in smartClosingSymbols below
+store(explicitSymbolsStroke) [T_ROUND_O] [T_ROUND_C] [T_SQUARE_O] [T_SQUARE_C] [T_CURLY_O] [T_CURLY_C] [T_SINGLE_O] [T_SINGLE_C] [T_DOUBLE_O] [T_DOUBLE_C]
+store(explicitSymbolsOut)        '('         ')'         '['           ']'         '{'         '}'        U+2018       U+2019       U+201C       U+201D
+store(explicitSymbolsShiftStroke) [SHIFT T_ROUND_O] [SHIFT T_ROUND_C] [SHIFT T_SQUARE_O] [SHIFT T_SQUARE_C] [SHIFT T_CURLY_O] [SHIFT T_CURLY_C] [SHIFT T_SINGLE_O] [SHIFT T_SINGLE_C] [SHIFT T_DOUBLE_O] [SHIFT T_DOUBLE_C]
+store(explicitSymbolsShiftOut)           '('               ')'               '['                ']'                '{'               '}'               U+2018             U+2019             U+201C             U+201D
 
 group(smartClosingSymbols) using keys
     c Intelligently insert open or close brackets/quotes based on context
@@ -93,6 +99,8 @@ group(detectStartOfSentence) readonly
     nomatch > layer('default')
 
 group(main) using keys
+    + any(explicitSymbolsStroke) > index(explicitSymbolsOut, 1)
+    + any(explicitSymbolsShiftStroke) > index(explicitSymbolsShiftOut, 1)
     + any(openSymbolStroke) > use(smartClosingSymbols)
     + any(alphaStroke) > index(alphaOut, 1)
     + any(alphaShiftStroke) > index(alphaShiftOut, 1)

@@ -285,7 +285,17 @@
                                         "text": "“ ”",
                                         "id": "U_201C"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "“",
+                                        "id": "T_DOUBLE_O"
+                                    },
+                                    {
+                                        "text": "”",
+                                        "id": "T_DOUBLE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "i",
@@ -296,7 +306,17 @@
                                         "text": "[ ]",
                                         "id": "U_005B"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "[",
+                                        "id": "T_SQUARE_O"
+                                    },
+                                    {
+                                        "text": "]",
+                                        "id": "T_SQUARE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "j",
@@ -312,6 +332,14 @@
                                     {
                                         "text": "y",
                                         "id": "K_Y"
+                                    },
+                                    {
+                                        "text": "(",
+                                        "id": "T_ROUND_O"
+                                    },
+                                    {
+                                        "text": ")",
+                                        "id": "T_ROUND_C"
                                     }
                                 ]
                             },
@@ -794,7 +822,17 @@
                                         "text": "“ ”",
                                         "id": "U_201C"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "“",
+                                        "id": "T_DOUBLE_O"
+                                    },
+                                    {
+                                        "text": "”",
+                                        "id": "T_DOUBLE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "I",
@@ -805,7 +843,17 @@
                                         "text": "[ ]",
                                         "id": "U_005B"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "[",
+                                        "id": "T_SQUARE_O"
+                                    },
+                                    {
+                                        "text": "]",
+                                        "id": "T_SQUARE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "J",
@@ -821,6 +869,14 @@
                                     {
                                         "text": "Y",
                                         "id": "K_Y"
+                                    },
+                                    {
+                                        "text": "(",
+                                        "id": "T_ROUND_O"
+                                    },
+                                    {
+                                        "text": ")",
+                                        "id": "T_ROUND_C"
                                     }
                                 ]
                             },
@@ -1303,7 +1359,17 @@
                                         "text": "“ ”",
                                         "id": "U_201C"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "“",
+                                        "id": "T_DOUBLE_O"
+                                    },
+                                    {
+                                        "text": "”",
+                                        "id": "T_DOUBLE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "I",
@@ -1314,7 +1380,17 @@
                                         "text": "[ ]",
                                         "id": "U_005B"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "[",
+                                        "id": "T_SQUARE_O"
+                                    },
+                                    {
+                                        "text": "]",
+                                        "id": "T_SQUARE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "J",
@@ -1330,6 +1406,14 @@
                                     {
                                         "text": "Y",
                                         "id": "K_Y"
+                                    },
+                                    {
+                                        "text": "(",
+                                        "id": "T_ROUND_O"
+                                    },
+                                    {
+                                        "text": ")",
+                                        "id": "T_ROUND_C"
                                     }
                                 ]
                             },
@@ -1742,7 +1826,25 @@
                                         "text": "‘ ’",
                                         "id": "U_2018"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "“",
+                                        "id": "T_DOUBLE_O"
+                                    },
+                                    {
+                                        "text": "”",
+                                        "id": "T_DOUBLE_C"
+                                    },
+                                    {
+                                        "text": "‘",
+                                        "id": "T_SINGLE_O"
+                                    },
+                                    {
+                                        "text": "’",
+                                        "id": "T_SINGLE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "[ ]",
@@ -1753,7 +1855,17 @@
                                         "text": "±",
                                         "id": "U_00B1"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "[",
+                                        "id": "T_SQUARE_O"
+                                    },
+                                    {
+                                        "text": "]",
+                                        "id": "T_SQUARE_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": "( )",
@@ -1764,7 +1876,25 @@
                                         "text": "{ }",
                                         "id": "U_007B"
                                     }
-                                }
+                                },
+                                "sk": [
+                                    {
+                                        "text": "(",
+                                        "id": "T_ROUND_O"
+                                    },
+                                    {
+                                        "text": ")",
+                                        "id": "T_ROUND_C"
+                                    },
+                                    {
+                                        "text": "{",
+                                        "id": "T_CURLY_O"
+                                    },
+                                    {
+                                        "text": "}",
+                                        "id": "T_CURLY_C"
+                                    }
+                                ]
                             },
                             {
                                 "text": ">",

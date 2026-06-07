@@ -1,5 +1,8 @@
 # Wëst Dgermänik change history
 
+## 0.13.2 (7 June 2026)
+- Added explicit open/close symbols to long press to allow circumventing smart-closing symbols
+
 ## 0.13.1 (4 June 2026)
 - Added G with dot above (Ġġ) to long press on G to allow digraph disambiguation
 
