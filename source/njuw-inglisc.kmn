@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Njuw Inĝlisc'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.13.2'
+store(&KEYBOARDVERSION) '0.14.0'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'njuw-inglisc.keyman-touch-layout'
 
