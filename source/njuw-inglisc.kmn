@@ -1,9 +1,9 @@
 store(&VERSION) '17.0'
-store(&NAME) 'Wëst Dgermänik'
+store(&NAME) 'Njuw Inĝlisc'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
 store(&KEYBOARDVERSION) '0.13.2'
 store(&TARGETS) 'mobile tablet web'
-store(&LAYOUTFILE) 'west_dgermanik.keyman-touch-layout'
+store(&LAYOUTFILE) 'njuw-inglisc.keyman-touch-layout'
 
 c Note three entry points, rather than the traditional single entry point
 begin Unicode > use(main)

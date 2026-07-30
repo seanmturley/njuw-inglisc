@@ -1,4 +1,7 @@
-# Wëst Dgermänik change history
+# Njuw Inĝlisc change history
+
+## 0.14.0 (30 July 2026)
+- Forked the project and renamed as "Njuw Inĝlisc" ahead of a full rework to accomodate a more parsimonious orthographic system more influenced by West Frisian
 
 ## 0.13.2 (7 June 2026)
 - Added explicit open/close symbols to long press to allow circumventing smart-closing symbols

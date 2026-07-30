@@ -1,8 +1,8 @@
-# Wëst Dgermänik keyboard
+# Njuw Inĝlisc keyboard
 
 ## Description
 
-A keyboard for the Wëst Dgermänik orthography, designed to maximise ergonomics and efficiency.
+A keyboard for the Njuw Inĝlisc orthography, designed to maximise ergonomics and efficiency.
 
 ## Links
 

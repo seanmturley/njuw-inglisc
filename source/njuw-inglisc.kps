@@ -17,17 +17,17 @@
     <Items />
   </StartMenu>
   <Info>
-    <Name URL="">Wëst Dgermänik</Name>
+    <Name URL="">Njuw Inĝlisc</Name>
     <Copyright URL="">Copyright © Sean Turley</Copyright>
     <Author URL="">Sean Turley</Author>
     <Description
       URL=""
-    >A keyboard for the Wëst Dgermänik orthography, designed to maximise ergonomics and efficiency.</Description>
+    >A keyboard for the Njuw Inĝlisc orthography, designed to maximise ergonomics and efficiency.</Description>
     <Version URL="">0.13.2</Version>
   </Info>
   <Files>
     <File>
-      <Name>..\build\west_dgermanik.js</Name>
+      <Name>..\build\njuw-inglisc.js</Name>
       <Description />
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
@@ -53,8 +53,8 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Wëst Dgermänik</Name>
-      <ID>west_dgermanik</ID>
+      <Name>Njuw Inĝlisc</Name>
+      <ID>njuw-inglisc</ID>
       <Version>0.13.2</Version>
       <Languages>
         <Language ID="en">English</Language>
