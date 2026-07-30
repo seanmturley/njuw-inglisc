@@ -23,7 +23,7 @@
     <Description
       URL=""
     >A keyboard for the Njuw Inĝlisc orthography, designed to maximise ergonomics and efficiency.</Description>
-    <Version URL="">0.14.0</Version>
+    <Version URL="">0.14.1</Version>
   </Info>
   <Files>
     <File>
@@ -55,7 +55,7 @@
     <Keyboard>
       <Name>Njuw Inĝlisc</Name>
       <ID>njuw-inglisc</ID>
-      <Version>0.14.0</Version>
+      <Version>0.14.1</Version>
       <Languages>
         <Language ID="en">English</Language>
       </Languages>

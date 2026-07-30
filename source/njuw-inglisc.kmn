@@ -1,7 +1,7 @@
 store(&VERSION) '17.0'
 store(&NAME) 'Njuw Inĝlisc'
 store(&COPYRIGHT) 'Copyright © Sean Turley'
-store(&KEYBOARDVERSION) '0.14.0'
+store(&KEYBOARDVERSION) '0.14.1'
 store(&TARGETS) 'mobile tablet web'
 store(&LAYOUTFILE) 'njuw-inglisc.keyman-touch-layout'
 
@@ -11,15 +11,15 @@ begin NewContext > use(NewContext)
 begin PostKeystroke > use(PostKeystroke)
 
 c Tell Keyman which keys should have casing behavior applied
-store(&CasedKeys) [K_A] .. [K_Z] [T_TRAP] [T_DRESS] [T_EDH] [T_THORN] [T_G_DOT]
+store(&CasedKeys) [K_A] .. [K_Z] [T_STRUT] [T_DRESS] [T_EDH] [T_THORN] [T_G_CIRCUMFLEX]
 
 c Global stores
 
 c Define all alphabet keys
-store(alphaStroke)          [K_A]    ..     [K_Z]      [T_TRAP]       [T_DRESS]        [T_EDH]      [T_THORN]       [T_G_DOT]
-store(alphaOut)              'a'     ..      'z'          'ä'            'ë'             'ð'           'þ'             'ġ'
-store(alphaShiftStroke)  [SHIFT K_A] .. [SHIFT K_Z] [SHIFT T_TRAP] [SHIFT T_DRESS] [SHIFT T_EDH] [SHIFT T_THORN] [SHIFT T_G_DOT]
-store(alphaShiftOut)         'A'     ..      'Z'          'Ä'            'Ë'             'Ð'           'Þ'             'Ġ'
+store(alphaStroke)          [K_A]    ..     [K_Z]      [T_STRUT]       [T_DRESS]        [T_EDH]      [T_THORN]       [T_G_CIRCUMFLEX]
+store(alphaOut)              'a'     ..      'z'          'â'             'ê'             'ð'           'þ'                 'ĝ'
+store(alphaShiftStroke)  [SHIFT K_A] .. [SHIFT K_Z] [SHIFT T_STRUT] [SHIFT T_DRESS] [SHIFT T_EDH] [SHIFT T_THORN] [SHIFT T_G_CIRCUMFLEX]
+store(alphaShiftOut)         'A'     ..      'Z'          'Â'             'Ê'             'Ð'           'Þ'                 'Ĝ'
 
 c Define whitespace
 store(whitespace) ' ' U+00A0 U+000D U+000A U+0009 U+2002 U+2003 U+2004 U+2005 U+2006 U+2007 U+2008 U+2009 U+200A U+202F U+205F

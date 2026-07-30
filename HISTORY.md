@@ -1,5 +1,8 @@
 # Njuw Inĝlisc change history
 
+## 0.14.1 (30 July 2026)
+- Updated special keys in .kmn keystores to match Njuw Inĝlisc orthography
+
 ## 0.14.0 (30 July 2026)
 - Forked the project and renamed as "Njuw Inĝlisc" ahead of a full rework to accomodate a more parsimonious orthographic system more influenced by West Frisian
 
