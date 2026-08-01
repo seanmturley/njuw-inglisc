@@ -1,5 +1,8 @@
 # Njuw Inĝlisc change history
 
+## 0.14.2 (1 August 2026)
+- Implemented full layout redesign to accommodate Njuw Inĝlisc orthography
+
 ## 0.14.1 (30 July 2026)
 - Updated special keys in .kmn keystores to match Njuw Inĝlisc orthography
 
