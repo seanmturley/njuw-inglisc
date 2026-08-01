@@ -27,7 +27,7 @@
   </Info>
   <Files>
     <File>
-      <Name>..\build\njuw-inglisc.js</Name>
+      <Name>..\build\njuw_inglisc.js</Name>
       <Description />
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
@@ -54,7 +54,7 @@
   <Keyboards>
     <Keyboard>
       <Name>Njuw Inĝlisc</Name>
-      <ID>njuw-inglisc</ID>
+      <ID>njuw_inglisc</ID>
       <Version>0.14.2</Version>
       <Languages>
         <Language ID="en">English</Language>
