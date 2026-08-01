@@ -1,0 +1,31 @@
+{
+  "name": "njuw-inglisc",
+  "version": "1.0.0",
+  "description": "A Keyman keyboard for \"Njuw Inĝlisc\" orthography",
+  "keywords": [
+    "keyman",
+    "keyboard",
+    "english",
+    "njuw-inglisc",
+    "custom-orthography",
+    "unicode"
+  ],
+  "author": "seanmturley",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "kmc build .",
+    "kmc": "kmc"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.18.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@keymanapp/kmc": "^18.0.249"
+  }
+}
